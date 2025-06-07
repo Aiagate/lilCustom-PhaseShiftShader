@@ -1,0 +1,6 @@
+Language	English	Japanese
+sPSShaderSettingsTitle	Phase Shift Shader Setting	フェイズシフトシェーダー
+sPSShaderSettingsTitleHelp	Phase Shift Shader Setting Help	フェイズシフトシェーダーに関する設定項目
+sPSShaderMirageColloidSettings	Mirage Colloid Setting	ミラージュコロイド設定
+sPSShaderMirageColloidContrast	Contrast	コントラスト
+sPSShaderMirageColloidHSVG	Contrast	色調
