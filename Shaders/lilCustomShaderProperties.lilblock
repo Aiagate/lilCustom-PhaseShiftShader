@@ -1,0 +1,14 @@
+        //----------------------------------------------------------------------------------------------------------------------
+        // Custom Properties
+        //_CustomVariable ("Custom Variable", Float) = 0
+                        _PS_MirageColloidContrast              ("Range", Range(-1.0, 1.0)) = 0
+        [lilHSVG]       _PS_MirageColloidHSVG                  ("Hue|Saturation|Value|Gamma", Vector) = (0,1,1,1)
+                        _PS_MirageColloidDissolveBorder        ("Range", Range(-1.0, 2.0)) = 0.5
+                        _PS_MirageColloidDissolveBlur          ("Range", Range(0.0, 1.0)) = 0.1
+                        _PS_MirageColloidDissolveMask          ("Dissolve Mask", 2D) = "white" {}
+                        _PS_MirageColloidDissolveMask_ST       ("Dissolve Mask ST", Vector) = (1,1,0,0)
+                        _PS_MirageColloidDissolveNoiseMaskStrength ("Dissolve Noise Mask Strength", Float) = 0
+                        _PS_MirageColloidDissolveNoiseMask     ("Dissolve Noise Mask", 2D) = "gray" {}
+                        _PS_MirageColloidDissolveNoiseMask_ST  ("Dissolve Noise Mask ST", Vector) = (1,1,0,0)
+        [lilUVAnim]     _PS_MirageColloidDissolveNoiseMaskAnim ("Scroll", Vector) = (0,0,0,0)
+        [HDR][lilHDR]   _PS_MirageColloidDissolveColor         ("Color", Color) = (1,1,1,1)
